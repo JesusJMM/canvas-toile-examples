@@ -1,12 +1,16 @@
 {
   "name": "canvas-toile-examples",
   "version": "0.0.0",
+  "homepage": "http://jesusjmm.github.io/canvas-toile-examples/",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite --host",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },

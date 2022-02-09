@@ -1,7 +1,7 @@
 {
   "name": "canvas-toile-examples",
   "version": "0.0.0",
-  "homepage": "http://jesusjmm.github.io/canvas-toile-examples/",
+  "homepage": "https://jesusjmm.github.io/canvas-toile-examples/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
